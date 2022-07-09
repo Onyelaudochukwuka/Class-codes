@@ -1,1 +1,1 @@
-# Class-codes
+# Class codes
