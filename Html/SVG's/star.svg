@@ -1,0 +1,15 @@
+ <svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <polyline
+            points=
+        "95,95
+         120,5 
+         150,95
+         235,95
+         165,150
+         195,235
+         120,180
+         50,235
+         75,150
+         5,95"
+            fill="#000000" stroke="blue" stroke-width="6"> </polyline>
+    </svg>
