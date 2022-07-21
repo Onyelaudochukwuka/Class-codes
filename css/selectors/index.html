@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS  -->
+    <style>
+        .paragraph {
+            color: blue;
+        }
+
+        #paragraph {
+            color: orange;
+        }
+
+        p {
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Inline CSS  -->
+        <p style="color: red;">I am a text</p>
+        <p class="paragraph">I am a text</p>
+        <p id="paragraph">I am a text</p>
+        <p>I am a text</p>
+
+        <!-- adding multiple class to a single element -->
+
+        <p class="paragraph a_text">I am a text</p>
+        <p class="read">I am a text</p>
+        <p class="unread">I am a text</p>
+
+    </div>
+
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection preview">This is where a preview for a post might go.</p>
+    </div>
+</body>
+
+</html>
