@@ -1,0 +1,48 @@
+
+/* Universal selectors */
+*{
+    font-size: xx-large;
+}
+
+
+/* class Selectors */
+
+.paragraph {
+    color: blue;
+}
+
+/* id selectors */
+
+#paragraph {
+    color: orange;
+}
+
+/* type selectors */
+p {
+    color: aqua;
+}
+
+ /* writing it this way every time will be such a pain */
+/*
+.read {
+    color: white;
+    background-color: black;
+}
+
+.unread {
+    color: white;
+    background-color: black;
+}
+*/
+
+/* So we can always do this */
+
+.read,
+.unread {
+    color: white;
+    background-color: black;
+}
+
+.subsection.header {
+    color: red;
+}
