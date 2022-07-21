@@ -46,3 +46,7 @@ p {
 .subsection.header {
     color: red;
 }
+
+.ancestor .contents {
+    /* some declarations */
+}
