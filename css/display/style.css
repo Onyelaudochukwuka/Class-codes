@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: stretch;
+}
+section div{
+    width: 50px;
+}
+.div1{
+background-color: red;
+display: contents;
+}
+.div2{
+background-color: blue;
+height: 20px;
+}
+.div3{
+background-color: yellow;
+height: 30px;
+}
+.div4{
+background-color: purple;
+height: 40px;
+}
+.div5{
+background-color: green;
+height: 50px;
+}
